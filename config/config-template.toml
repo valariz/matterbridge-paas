@@ -1,0 +1,20 @@
+[mattermost]
+    [mattermost.betagouv]
+    Server="${MATTERMOST_BETAGOUV_SERVER}"
+    Team="${MATTERMOST_BETAGOUV_TEAM}"
+    Login="${MATTERMOST_BETAGOUV_BOT_LOGIN}"
+    Password="${MATTERMOST_BETAGOUV_BOT_PASSWORD}"
+    PrefixMessagesWithNick=true
+    RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
+
+[slack]
+    [slack.betagouv]
+    Token="${SLACK_BETAGOUV_TOKEN}"
+    PrefixMessagesWithNick=true
+
+
+[[samechannelgateway]]
+    enable = true
+    name = "samechannel1"
+    accounts = [ "mattermost.betagouv","slack.betagouv" ]
+    channels = [ "domaine-dev"]
