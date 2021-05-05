@@ -2,8 +2,7 @@
     [mattermost.betagouv]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_TEAM}"
-    Login="${MATTERMOST_BETAGOUV_BOT_LOGIN}"
-    Password="${MATTERMOST_BETAGOUV_BOT_PASSWORD}"
+    Token="${MATTERMOST_BETAGOUV_TOKEN}"
     PrefixMessagesWithNick=true
     RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 
