@@ -4,12 +4,12 @@
   "repository": "https://github.com/betagouv/matterbridge-paas",
   "keywords": ["mattermost", "matterbridge", "slack"],
   "success_url": "/",
-  "buildpacks": [
-    {
-      "url": "https://github.com/betagouv/matterbridge-paas.git#master"
-    }
-  ],
   "env": {
+    "BUILDPACK_URL": {
+      "description": "Buildpack used to deploy Mattermost",
+      "value": "https://github.com/betagouv/matterbridge-paas.git#master",
+      "required": true
+    },
     "MATTERBRIDGE_VERSION": {
        "description": "Version of matterbridge to download and deploy",
        "value": "0.22.1"
