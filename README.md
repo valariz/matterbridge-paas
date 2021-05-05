@@ -1,6 +1,8 @@
 # Matterbridge-PaaS
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy on Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy?source=https://github.com/betagouv/matterbridge-scalingo#master)
+
 
 An inline buildpack for hosting Matterbridge on Heroku.
 
