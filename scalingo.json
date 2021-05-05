@@ -6,7 +6,7 @@
   "success_url": "/",
   "buildpacks": [
     {
-      "url": "http://github.com/betagouv/matterbridge-paas.git#master"
+      "url": "https://github.com/betagouv/matterbridge-paas.git#master"
     }
   ],
   "env": {
