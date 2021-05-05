@@ -1,0 +1,38 @@
+{
+  "name": "Matterbridge-PaaS",
+  "description": "Deploy Matterbridge to PaaS",
+  "repository": "https://github.com/betagouv/matterbridge-paas",
+  "keywords": ["mattermost", "matterbridge", "slack"],
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "http://github.com/betagouv/matterbridge-paas.git#master"
+    }
+  ],
+  "env": {
+    "MATTERBRIDGE_VERSION": {
+       "description": "Version of matterbridge to download and deploy",
+       "value": "0.22.1"
+    },
+    "BETAGOUV_MATTERMOST_SERVER": {
+      "description": "The URL of the mattermost server",
+      "value": ""
+    },
+    "BETAGOUV_MATTERMOST_TEAM": {
+      "description": "Mattermost team to connect to",
+      "value": ""
+    },
+    "BETAGOUV_MATTERMOST_BOT_LOGIN": {
+      "description": "Mattermost bot username",
+      "value": ""
+    },
+    "BETAGOUV_MATTERMOST_BOT_PASSWORD": {
+      "description": "Mattermost Bot password",
+      "value": ""
+    },
+    "SLACK_BETAGOUV_TOKEN": {
+      "description": "Slack Token",
+      "value": ""
+    }
+  }
+}
