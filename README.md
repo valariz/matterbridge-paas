@@ -57,3 +57,7 @@ configuration file template.
 <!-- Links -->
    [git-tags]: https://github.com/42wim/matterbridge/tags
    [config]: config/config-template.toml
+
+## Scalingo
+
+You have to launch : `scalingo --app name scale worker:1:S` before the first deploy.
