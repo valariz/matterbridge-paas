@@ -11,7 +11,7 @@
     [slack.betagouv]
     Token="${SLACK_BETAGOUV_TOKEN}"
     PrefixMessagesWithNick=true
-
+    RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 
 [[samechannelgateway]]
     enable = true
