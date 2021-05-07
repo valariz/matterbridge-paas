@@ -17,4 +17,4 @@
     enable = true
     name = "samechannel1"
     accounts = [ "mattermost.betagouv","slack.betagouv" ]
-    channels = [ "domaine-dev"]
+    channels = [ "domaine-dev", "incubateur-alpha", "general"]
