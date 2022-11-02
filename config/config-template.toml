@@ -5,9 +5,10 @@ PreserveThreading=true
     Team="${MATTERMOST_BETAGOUV_TEAM}"
     Login="${MATTERMOST_BETAGOUV_BOT_LOGIN}"
     Password="${MATTERMOST_BETAGOUV_BOT_PASSWORD}"
-    PrefixMessagesWithNick=true
+    PrefixMessagesWithNick=false
     RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
     PreserveThreading=true
+    UseUserName=true
     [mattermost.alumni]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_ALUMNI_TEAM}"
@@ -16,6 +17,7 @@ PreserveThreading=true
     PrefixMessagesWithNick=true
     RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
     PreserveThreading=true
+    UseUserName=true
 [slack]
     [slack.betagouv]
     Token="${SLACK_BETAGOUV_TOKEN}"
