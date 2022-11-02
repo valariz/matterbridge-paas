@@ -1,3 +1,4 @@
+PreserveThreading=true
 [mattermost]
     [mattermost.betagouv]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
