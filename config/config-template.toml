@@ -9,6 +9,7 @@ PreserveThreading=true
     RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
     PreserveThreading=true
     UseUserName=true
+    SpoofUsername=true
     [mattermost.alumni]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_ALUMNI_TEAM}"
