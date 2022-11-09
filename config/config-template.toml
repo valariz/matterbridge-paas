@@ -1,5 +1,21 @@
 PreserveThreading=true
 [mattermost]
+    [mattermost.betagouv.webhook]
+    Server="${MATTERMOST_BETAGOUV_SERVER}"
+    Team="${MATTERMOST_BETAGOUV_TEAM}"
+    PrefixMessagesWithNick=true
+    RemoteNickFormat="<{NICK}> "
+    PreserveThreading=true
+    UseUserName=true
+    WebhookURL="${MATTERMOST_BETAGOUV_WEBHOOK}"
+    [mattermost.alumni.webhook]
+    Server="${MATTERMOST_BETAGOUV_SERVER}"
+    Team="${MATTERMOST_BETAGOUV_TEAM}"
+    PrefixMessagesWithNick=true
+    RemoteNickFormat="<{NICK}> "
+    PreserveThreading=true
+    UseUserName=true
+    WebhookURL="${MATTERMOST_ALUMNI_WEBHOOK}"
     [mattermost.betagouv]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_TEAM}"
@@ -27,5 +43,5 @@ PreserveThreading=true
 [[samechannelgateway]]
     enable = true
     name = "samechannel1"
-    accounts = [ "mattermost.betagouv","mattermost.alumni" ]
+    accounts = [ "mattermost.betagouv.webhook","mattermost.alumni.webhook" ]
     channels = [ "tmp-lucas-test", "domaine-dev" ]
