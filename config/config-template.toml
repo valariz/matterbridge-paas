@@ -44,4 +44,4 @@ PreserveThreading=true
     enable = true
     name = "samechannel1"
     accounts = [ "mattermost.betagouv.webhook","mattermost.alumni.webhook" ]
-    channels = [ "tmp-lucas-test", "domaine-dev" ]
+    channels = [ "tmp-lucas-test" ]
