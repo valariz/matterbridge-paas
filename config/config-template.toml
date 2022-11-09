@@ -1,4 +1,5 @@
 PreserveThreading=true
+Debug="true"
 [mattermost]
     [mattermost.betagouvwebhook]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
