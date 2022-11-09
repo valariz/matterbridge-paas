@@ -1,6 +1,6 @@
 PreserveThreading=true
 [mattermost]
-    [mattermost.betagouv.webhook]
+    [mattermost.betagouvwebhook]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_TEAM}"
     PrefixMessagesWithNick=true
@@ -8,7 +8,7 @@ PreserveThreading=true
     PreserveThreading=true
     UseUserName=true
     WebhookURL="${MATTERMOST_BETAGOUV_WEBHOOK}"
-    [mattermost.alumni.webhook]
+    [mattermost.alumniwebhook]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_TEAM}"
     PrefixMessagesWithNick=true
@@ -43,5 +43,5 @@ PreserveThreading=true
 [[samechannelgateway]]
     enable = true
     name = "samechannel1"
-    accounts = [ "mattermost.betagouv.webhook","mattermost.alumni.webhook" ]
+    accounts = [ "mattermost.betagouvwebhook","mattermost.alumniwebhook" ]
     channels = [ "tmp-lucas-test" ]
