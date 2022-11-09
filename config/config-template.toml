@@ -8,6 +8,7 @@ PreserveThreading=true
     PreserveThreading=true
     UseUserName=true
     WebhookURL="${MATTERMOST_BETAGOUV_WEBHOOK}"
+    WebhookBindAddress="${MATTERMOST_ALUMNI_WEBHOOK}"
     [mattermost.alumniwebhook]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_TEAM}"
@@ -16,6 +17,7 @@ PreserveThreading=true
     PreserveThreading=true
     UseUserName=true
     WebhookURL="${MATTERMOST_ALUMNI_WEBHOOK}"
+    WebhookBindAddress="${MATTERMOST_BETAGOUV_WEBHOOK}"
     [mattermost.betagouv]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_TEAM}"
