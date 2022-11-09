@@ -1,37 +1,19 @@
 PreserveThreading=true
 [mattermost]
-    [mattermost.betagouvwebhook]
-    Server="${MATTERMOST_BETAGOUV_SERVER}"
-    Team="${MATTERMOST_BETAGOUV_TEAM}"
-    PrefixMessagesWithNick=true
-    RemoteNickFormat="<{NICK}> "
-    PreserveThreading=true
-    UseUserName=true
-    WebhookURL="https://${MATTERMOST_BETAGOUV_WEBHOOK}"
-    WebhookBindAddress="${MATTERMOST_ALUMNI_WEBHOOK}"
-    [mattermost.alumniwebhook]
-    Server="${MATTERMOST_BETAGOUV_SERVER}"
-    Team="${MATTERMOST_BETAGOUV_TEAM}"
-    PrefixMessagesWithNick=true
-    RemoteNickFormat="<{NICK}> "
-    PreserveThreading=true
-    UseUserName=true
-    WebhookURL="https://${MATTERMOST_ALUMNI_WEBHOOK}"
-    WebhookBindAddress="${MATTERMOST_BETAGOUV_WEBHOOK}"
     [mattermost.betagouv]
+    PreserveThreading=true
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_TEAM}"
     PrefixMessagesWithNick=true
     RemoteNickFormat="<{NICK}> "
-    PreserveThreading=true
     Token="${MATTERMOST_BETAGOUV_TOKEN}"
     UseUserName=true
     [mattermost.alumni]
+    PreserveThreading=true
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_ALUMNI_TEAM}"
     PrefixMessagesWithNick=true
     RemoteNickFormat="<{NICK}> "
-    PreserveThreading=true
     Token="${MATTERMOST_ALUMNI_TOKEN}"
     UseUserName=true
 [slack]
