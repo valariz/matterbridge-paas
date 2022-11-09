@@ -8,7 +8,7 @@ Debug="true"
     RemoteNickFormat="<{NICK}> "
     PreserveThreading=true
     UseUserName=true
-    WebhookURL="${MATTERMOST_BETAGOUV_WEBHOOK}"
+    WebhookURL="https://${MATTERMOST_BETAGOUV_WEBHOOK}"
     WebhookBindAddress="${MATTERMOST_ALUMNI_WEBHOOK}"
     [mattermost.alumniwebhook]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
@@ -17,7 +17,7 @@ Debug="true"
     RemoteNickFormat="<{NICK}> "
     PreserveThreading=true
     UseUserName=true
-    WebhookURL="${MATTERMOST_ALUMNI_WEBHOOK}"
+    WebhookURL="https://${MATTERMOST_ALUMNI_WEBHOOK}"
     WebhookBindAddress="${MATTERMOST_BETAGOUV_WEBHOOK}"
     [mattermost.betagouv]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
@@ -27,12 +27,14 @@ Debug="true"
     PrefixMessagesWithNick=true
     RemoteNickFormat="<{NICK}> "
     PreserveThreading=true
+    Token="${MATTERMOST_BETAGOUV_TOKEN}"
     UseUserName=true
     [mattermost.alumni]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_ALUMNI_TEAM}"
-    Login="${MATTERMOST_BETAGOUV_BOT_LOGIN}"
-    Password="${MATTERMOST_BETAGOUV_BOT_PASSWORD}"
+    #Login="${MATTERMOST_BETAGOUV_BOT_LOGIN}"
+    #Password="${MATTERMOST_BETAGOUV_BOT_PASSWORD}"
+    Token="${MATTERMOST_ALUMNI_TOKEN}"
     PrefixMessagesWithNick=true
     RemoteNickFormat="<{NICK}> "
     PreserveThreading=true
