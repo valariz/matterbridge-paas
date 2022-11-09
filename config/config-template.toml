@@ -21,8 +21,6 @@ PreserveThreading=true
     [mattermost.betagouv]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_TEAM}"
-    #Login="${MATTERMOST_ALUMNI_BOT_LOGIN}"
-    #Password="${MATTERMOST_ALUMNI_BOT_PASSWORD}"
     PrefixMessagesWithNick=true
     RemoteNickFormat="<{NICK}> "
     PreserveThreading=true
@@ -31,8 +29,6 @@ PreserveThreading=true
     [mattermost.alumni]
     Server="${MATTERMOST_BETAGOUV_SERVER}"
     Team="${MATTERMOST_BETAGOUV_ALUMNI_TEAM}"
-    #Login="${MATTERMOST_BETAGOUV_BOT_LOGIN}"
-    #Password="${MATTERMOST_BETAGOUV_BOT_PASSWORD}"
     PrefixMessagesWithNick=true
     RemoteNickFormat="<{NICK}> "
     PreserveThreading=true
