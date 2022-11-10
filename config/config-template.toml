@@ -26,4 +26,4 @@ PreserveThreading=true
     enable = true
     name = "samechannel1"
     accounts = [ "mattermost.betagouv","mattermost.alumni" ]
-    channels = [ "tmp-lucas-test", "domaine-dev", "incubateur-bizdev", "incubateur-embauche", "domaine-coaching", "domaine-design" ]
+    channels = [ "tmp-lucas-test", "domaine-dev", "incubateur-bizdev", "incubateur-embauche", "incubateur-coaching", "domaine-design" ]
