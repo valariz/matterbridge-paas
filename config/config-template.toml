@@ -26,4 +26,4 @@ PreserveThreading=true
     enable = true
     name = "samechannel1"
     accounts = [ "mattermost.betagouv","mattermost.alumni" ]
-    channels = [ "tmp-lucas-test" ]
+    channels = [ "tmp-lucas-test", "domaine-dev" ]
