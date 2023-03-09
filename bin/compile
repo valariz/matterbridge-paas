@@ -19,7 +19,6 @@ echo "-----> Downloading Matterbridge: $MATTERBRIDGE_URL"
 cd $BUILD_DIR
 curl -s -L https://github.com/valariz/matterbridge/releases/download/v1.26.0/matterbridge -o matterbridge
 chmod +x matterbridge
-chmod +x matterbridgee
 
 
 
