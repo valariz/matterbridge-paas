@@ -10,7 +10,11 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
 
+ATEST_VERSION=$(get_latest_release "42wim/matterbridge")
+MATTERBRIDGE_VERSION="${MATTERBRIDGE_VERSION:-$LATEST_VERSION}"
+MATTERBRIDGE_VERSION_BIS="${MATTERBRIDGE_VERSION//v}"
+MATTERBRIDGE_URL="${MATTERBRIDGE_URL:-https://github.com/42wim/matterbridge/releases/download/$MATTERBRIDGE_VERSION/matterbridge-$MATTERBRIDGE_VERSION_BIS-linux-64bit}"
+
 cd $BUILD_DIR
 curl -s -L https://github.com/valariz/matterbridge/releases/download/v1.26.0/matterbridge -o matterbridge
 chmod +x matterbridge
-export PATH=$PATH:$HOME
