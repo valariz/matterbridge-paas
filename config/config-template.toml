@@ -1,29 +1,15 @@
 PreserveThreading=true
-[mattermost]
-    [mattermost.betagouv]
-    PreserveThreading=true
-    Server="${MATTERMOST_BETAGOUV_SERVER}"
-    Team="${MATTERMOST_BETAGOUV_TEAM}"
-    PrefixMessagesWithNick=true
-    RemoteNickFormat="<{NICK}> "
-    Token="${MATTERMOST_BETAGOUV_TOKEN}"
-    UseUserName=true
-    [mattermost.alumni]
-    PreserveThreading=true
-    Server="${MATTERMOST_BETAGOUV_SERVER}"
-    Team="${MATTERMOST_BETAGOUV_ALUMNI_TEAM}"
-    PrefixMessagesWithNick=true
-    RemoteNickFormat="<{NICK}> "
-    Token="${MATTERMOST_ALUMNI_TOKEN}"
-    UseUserName=true
-[slack]
-    [slack.betagouv]
-    Token="${SLACK_BETAGOUV_TOKEN}"
-    PrefixMessagesWithNick=true
-    RemoteNickFormat="[On parle ici -> https://mattermost.incubateur.net et de l'aide sur #aide-mattermost] <{NICK}> "
+[whatsapp]
+	[whatsapp.valariz]		
+		Number="+19252319604"
+		SessionFile="session-19252319604.gob"
+		QrOnWhiteTerminal=false
+		RemoteNickFormat="[{PROTOCOL}] @{NICK}: "
+        
+[[gateway]]
+name="gateway1"
+enable=true
 
-[[samechannelgateway]]
-    enable = true
-    name = "samechannel1"
-    accounts = [ "mattermost.betagouv","mattermost.alumni" ]
-    channels = [ "tmp-lucas-test", "domaine-dev", "incubateur-bizdev", "incubateur-embauche", "incubateur-coaching", "domaine-design" ]
+	[[gateway.inout]]
+    account="whatsapp.valariz"
+    channel="beta tester"
