@@ -41,4 +41,7 @@ enable=true
 	
     [[gateway.inout]]
     account="whatsapp.valariz"
-    channel= ""
+    channel= "120363045095042105@g.us"
+    [[gateway.inout]]
+    account="whatsapp.valariz"
+    channel= "120363076904021773@g.us"
