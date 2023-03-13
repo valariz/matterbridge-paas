@@ -39,6 +39,6 @@ enable=true
     account="discord.valariz"
     channel="ID:749625005633044494"
 	
-	[[gateway.inout]]
+    [[gateway.inout]]
     account="whatsapp.valariz"
-    channel="120363076904021773@g.us"
+    channel= [ "120363076904021773@g.us", "" ]
