@@ -41,7 +41,4 @@ enable=true
 	
     [[gateway.inout]]
     account="whatsapp.valariz"
-    channel= "120363076904021773@g.us"
-    [[gateway.inout]]
-    account="whatsapp.valariz"
-    channel= "beta tester"
+    channel= "[T3] VORTEX•ID"
