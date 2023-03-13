@@ -41,4 +41,4 @@ enable=true
 	
     [[gateway.inout]]
     account="whatsapp.valariz"
-    channel= "[T3] VORTEX•ID"
+    channel= ""
