@@ -4,6 +4,7 @@
 [telegram]
     [telegram.valariz]
         Token="${TELEGRAM_VALARIZ_TOKEN}"
+	RemoteNickFormat="<{NICK}> "
         MessageFormat="HTMLNick :"
         QuoteFormat="{MESSAGE} (re @{QUOTENICK}: {QUOTEMESSAGE})"
         QuoteLengthLimit=46 # Truncuate long quotes to prevent spammy bridged messages
@@ -12,11 +13,11 @@
 	[discord.valariz]
 		Token="${DISCORD_VALARIZ_TOKEN}"
 		Server="${DISCORD_VALARIZ_SERVER}" # picked from guilds the bot is connected to
+		RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 [whatsapp]
 	[whatsapp.valariz]		
 		Number="${WHATSAPP_VALARIZ_NUMBER}"
 		SessionFile="${WHATSAPP_VALARIZ_SESSIONFILE}"
-		RemoteNickFormat="[{PROTOCOL}] @{NICK}: "
 		QrOnWhiteTerminal=false
 		
 # Map threads from other bridges on discord replies
