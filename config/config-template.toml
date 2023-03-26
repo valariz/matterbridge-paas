@@ -4,7 +4,6 @@
 [telegram]
     [telegram.valariz]
         Token="${TELEGRAM_VALARIZ_TOKEN}"
-        RemoteNickFormat="<{NICK}> " # How your message will be formatted when bridged. 
         MessageFormat="HTMLNick :"
         QuoteFormat="{MESSAGE} (re @{QUOTENICK}: {QUOTEMESSAGE})"
         QuoteLengthLimit=46 # Truncuate long quotes to prevent spammy bridged messages
@@ -13,13 +12,11 @@
 	[discord.valariz]
 		Token="${DISCORD_VALARIZ_TOKEN}"
 		Server="${DISCORD_VALARIZ_SERVER}" # picked from guilds the bot is connected to
-		RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 [whatsapp]
 	[whatsapp.valariz]		
 		Number="${WHATSAPP_VALARIZ_NUMBER}"
 		SessionFile="${WHATSAPP_VALARIZ_SESSIONFILE}"
 		QrOnWhiteTerminal=false
-		RemoteNickFormat="[{PROTOCOL}] @{NICK}: "
 		
 # Map threads from other bridges on discord replies
 PreserveThreading=true
@@ -42,6 +39,22 @@ enable=true
     [[gateway.inout]]
     account="whatsapp.valariz"
     channel= "120363045095042105@g.us"
+
+	
+[[gateway]]
+name="gateway2"
+enable=true	
+
+    [[gateway.inout]]
+    account="telegram.valariz"
+    channel="-100705614196"
+
+    [[gateway.inout]]
+    account="discord.valariz"
+    channel="ID:838585639254360135"
+	
     [[gateway.inout]]
     account="whatsapp.valariz"
-    channel= "120363076904021773@g.us"
+    channel= "T3 Club"
+
+
