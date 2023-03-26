@@ -16,6 +16,7 @@
 	[whatsapp.valariz]		
 		Number="${WHATSAPP_VALARIZ_NUMBER}"
 		SessionFile="${WHATSAPP_VALARIZ_SESSIONFILE}"
+		RemoteNickFormat="[{PROTOCOL}] @{NICK}: "
 		QrOnWhiteTerminal=false
 		
 # Map threads from other bridges on discord replies
@@ -47,7 +48,7 @@ enable=true
 
     [[gateway.inout]]
     account="telegram.valariz"
-    channel="-100705614196"
+    channel="-1001919850360"
 
     [[gateway.inout]]
     account="discord.valariz"
