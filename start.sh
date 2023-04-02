@@ -19,7 +19,7 @@ trap _term SIGTERM
 ####################
 # Start Matterbridge #
 ####################
-bash ./matterbridge -conf=config/config.toml &
+go ./matterbridge -conf=config/config.toml &
 
 PID=$!
 
