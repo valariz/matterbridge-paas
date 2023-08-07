@@ -84,7 +84,7 @@ enable=true
     channel="ID:1137715098354466836"
 	
     [[gateway.inout]]
-    account="whatsapp.valariz"
-    channel= "??"
+    account="telegram.valariz"
+    channel="-100920521789"
 
 
