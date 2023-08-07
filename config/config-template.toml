@@ -81,7 +81,7 @@ enable=true
 
     [[gateway.inout]]
     account="discord.valariz"
-    channel="ID:1137715098354466836"
+    channel="ID:740032411034976386"
 	
     [[gateway.inout]]
     account="telegram.valariz"
