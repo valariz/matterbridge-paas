@@ -13,11 +13,11 @@
 	[discord.valariz]
 		Token="${DISCORD_VALARIZ_TOKEN}"
 		Server="${DISCORD_VALARIZ_SERVER}" # picked from guilds the bot is connected to
-		RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
+		#RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
 	[discord.valarizz]
 		Token="${DISCORD_VALARIZZ_TOKEN}"
 		Server="${DISCORD_VALARIZZ_SERVER}" # picked from guilds the bot is connected to
-		RemoteNickFormat="<{NICK}> "
+		#RemoteNickFormat="<{NICK}> "
 [whatsapp]
 	[whatsapp.valariz]		
 		Number="${WHATSAPP_VALARIZ_NUMBER}"
@@ -32,7 +32,7 @@ PreserveThreading=true
 # / 
 [[gateway]]
 name="gateway1"
-enable=true
+enable=false
 
     [[gateway.inout]]
     account="telegram.valariz"
@@ -49,7 +49,7 @@ enable=true
 	
 [[gateway]]
 name="gateway2"
-enable=true	
+enable=false	
 
     [[gateway.inout]]
     account="telegram.valariz"
@@ -65,7 +65,7 @@ enable=true
 
 [[gateway]]
 name="gateway3"
-enable=true	
+enable=false	
 
     [[gateway.out]]
     account="discord.valarizz"
@@ -74,4 +74,17 @@ enable=true
     [[gateway.in]]
     account="whatsapp.valariz"
     channel= "120363045095042105@g.us"
+    
+[[gateway]]
+name="gateway4"
+enable=true
+
+    [[gateway.inout]]
+    account="discord.valarizz"
+    channel="ID:1137715098354466836"
+	
+    [[gateway.inout]]
+    account="whatsapp.valariz"
+    channel= "??"
+
 
