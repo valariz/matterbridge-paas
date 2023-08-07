@@ -80,7 +80,7 @@ name="gateway4"
 enable=true
 
     [[gateway.inout]]
-    account="discord.valarizz"
+    account="discord.valariz"
     channel="ID:1137715098354466836"
 	
     [[gateway.inout]]
