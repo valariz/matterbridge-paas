@@ -14,9 +14,9 @@
 		Token="${DISCORD_VALARIZ_TOKEN}"
 		Server="${DISCORD_VALARIZ_SERVER}" # picked from guilds the bot is connected to
 		#RemoteNickFormat="[{PROTOCOL}] <{NICK}> "
-	[discord.valarizz]
-		Token="${DISCORD_VALARIZZ_TOKEN}"
-		Server="${DISCORD_VALARIZZ_SERVER}" # picked from guilds the bot is connected to
+	##[discord.valarizz]
+		##Token="${DISCORD_VALARIZZ_TOKEN}"
+		##Server="${DISCORD_VALARIZZ_SERVER}" # picked from guilds the bot is connected to
 		#RemoteNickFormat="<{NICK}> "
 [whatsapp]
 	[whatsapp.valariz]		
