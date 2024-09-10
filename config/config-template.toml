@@ -87,4 +87,14 @@ enable=true
     account="telegram.valariz"
     channel="-1001801183046"
 
+[[gateway]]
+name="gateway5"
+enable=true
 
+    [[gateway.inout]]
+    account="discord.valariz"
+    channel="ID:1282861721832128594"
+	
+    [[gateway.inout]]
+    account="telegram.valariz"
+    channel="-1002298058811"
