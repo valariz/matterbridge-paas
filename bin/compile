@@ -12,7 +12,7 @@ ENV_DIR=$3
 
 echo "-----> Downloading Matterbridge"
 cd $BUILD_DIR
-curl -s -L https://github.com/valariz/matterbridge-paas/releases/download/old/matterbridge -o matterbridge
+curl -s -L https://github.com/valariz/matterbridge-paas/releases/download/lastest/matterbridge -o matterbridge
 chmod +x matterbridge
 
 
