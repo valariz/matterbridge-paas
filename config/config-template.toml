@@ -76,7 +76,7 @@ enable=false
     
 [[gateway]]
 name="gateway4"
-enable=false
+enable=true
 
     [[gateway.inout]]
     account="discord.valariz"
@@ -97,3 +97,7 @@ enable=true
     [[gateway.inout]]
     account="telegram.valariz"
     channel="-1002298058811"
+
+    [[gateway.in]]
+    account="whatsapp.valariz"
+    channel= "120363045095042105@g.us"
