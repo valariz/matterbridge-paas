@@ -98,6 +98,6 @@ enable=true
     account="telegram.valariz"
     channel="-1002298058811"
 
-    [[gateway.in]]
+    [[gateway.inout]]
     account="whatsapp.valariz"
     channel= "120363335163802761@g.us"
