@@ -19,7 +19,7 @@ trap _term SIGTERM
 ####################
 # Start Matterbridge #
 ####################
-./matterbridge -conf=config/config.toml -debug &
+./matterbridge -conf=config/config.toml -debug -version &
 
 PID=$!
 
