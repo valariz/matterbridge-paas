@@ -77,7 +77,7 @@ enable=false
     
 [[gateway]]
 name="gateway4"
-enable=true
+enable=false
 
     [[gateway.inout]]
     account="discord.valariz"
