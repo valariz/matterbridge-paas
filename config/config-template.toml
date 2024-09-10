@@ -9,7 +9,6 @@
         QuoteFormat="{MESSAGE} (re @{QUOTENICK}: {QUOTEMESSAGE})"
         QuoteLengthLimit=46 # Truncuate long quotes to prevent spammy bridged messages
         IgnoreMessages="^/" # Don't bridge bot commands (as the responses will not be bridged)
-	debug=true
 [discord]
 	[discord.valariz]
 		Token="${DISCORD_VALARIZ_TOKEN}"
@@ -24,7 +23,6 @@
 		Number="${WHATSAPP_VALARIZ_NUMBER}"
 		SessionFile="${WHATSAPP_VALARIZ_SESSIONFILE}"
 		QrOnWhiteTerminal=false
-		
 # Map threads from other bridges on discord replies
 PreserveThreading=true
 
