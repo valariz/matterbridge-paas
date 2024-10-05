@@ -100,7 +100,7 @@ enable=true
 
     [[gateway.inout]]
     account="whatsapp.valariz"
-    channel= ""
+    channel= "120363298703850155@g.us"
 
 [[gateway]]
 name="gateway6"
@@ -112,4 +112,4 @@ enable=true
 
     [[gateway.inout]]
     account="whatsapp.valariz"
-    channel= ""
+    channel= "120363290871521706@g.us"
