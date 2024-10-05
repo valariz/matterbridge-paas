@@ -107,8 +107,6 @@ name="gateway6"
 enable=true
 
     [[gateway.inout]]
-	
-    [[gateway.inout]]
     account="telegram.valariz"
     channel="-1004567613774"
 
