@@ -108,7 +108,7 @@ enable=true
 
     [[gateway.inout]]
     account="telegram.valariz"
-    channel="-1004567613774"
+    channel="-1004536251669"
 
     [[gateway.inout]]
     account="whatsapp.valariz"
