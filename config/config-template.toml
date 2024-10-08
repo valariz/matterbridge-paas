@@ -96,7 +96,7 @@ enable=true
 	
     [[gateway.inout]]
     account="telegram.valariz"
-    channel="-2298058811"
+    channel="-1002298058811"
 
     [[gateway.inout]]
     account="whatsapp.valariz"
@@ -108,7 +108,7 @@ enable=true
 
     [[gateway.inout]]
     account="telegram.valariz"
-    channel="-4567613774"
+    channel="-1004567613774"
 
     [[gateway.inout]]
     account="whatsapp.valariz"
